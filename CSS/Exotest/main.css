@@ -1,0 +1,22 @@
+
+
+h1{
+    color: darkred;
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    font-size: 30px;    
+    background-color: red;
+}
+
+ol{
+    font-style: italic;
+}
+
+ul{
+    font-style: italic;
+}
