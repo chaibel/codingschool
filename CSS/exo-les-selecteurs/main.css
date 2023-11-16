@@ -1,0 +1,28 @@
+section{
+    padding-bottom: 50px;
+    border-bottom: 1px;
+}
+
+/*Exo1*/
+
+section:first-child h4{
+    color: blue;
+}
+
+/*Exo2*/
+
+section:nth-child(2){
+    border-bottom: 5px solid red;
+}
+
+/*Exo3*/
+
+section:nth-child(3) h3, section:nth-child(3) ul{
+    color: red;
+}
+
+/*Exo4*/
+
+section:nth-child(4) ul > li > a{
+    font-size: 25px;
+}
