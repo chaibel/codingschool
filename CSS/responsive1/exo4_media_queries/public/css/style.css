@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+@media (min-width: 1024px){
+    .square{
+        background-color: blue;
+        width: 33.33vw;
+        height: 33.33vw;
+        border: 5px solid green;
+        border-radius: 50%;
+    }
+    
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+    .square{
+        background-color: red;
+        width: 66.66vw;
+        height: 66.66vw;
+        border: 5px solid yellow;
+        border-radius: 15px;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 600px){
+    .square{
+        background-color: orange;
+        width: 100vw;
+        height: 100vw;
+        border: 5px solid black;
+        border-radius: 5px;
+    }
+    
+}

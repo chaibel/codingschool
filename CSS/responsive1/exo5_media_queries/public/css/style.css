@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+
+@media (min-width: 1024px){
+    #carre1{
+        background-color: red;
+        width: 33.33vh;
+        height: 33.33vh;
+    }
+    #carre2{
+        background-color: green;
+        width: 33.33vh;
+        height: 33.33vh;
+    }    
+
+    #carre3{
+        background-color: orange;
+        width: 33.33vh;
+        height: 33.33vh;
+    }
+    
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+    #carre1{
+        background-color: red;
+        width: 50vh;
+        height: 50vh;
+    }
+    #carre2{
+        background-color: green;
+        width: 50vh;
+        height: 50vh;
+    }
+    #carre3{
+        background-color: orange;
+        width: 50vh;
+        height: 50vh;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 600px){
+    #carre1{
+        background-color: red;
+        width: 100vh;
+        height: 100vh;
+    }
+    #carre2{
+        background-color: green;
+        width: 100vh;
+        height: 100vh;
+    }    
+
+    #carre3{
+        background-color: orange;
+        width: 100vh;
+        height: 100vh;
+    }
+    
+}
