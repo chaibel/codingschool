@@ -1,0 +1,248 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #2C3E50;
+    margin: -8px;
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+}
+
+#header-div2{
+    display: flex;
+    gap: 15px;
+    color: white;
+    align-items: center;
+}
+
+#header-div1{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#section1{
+    background-color: #DC3545;
+    height: 410px;
+    margin: -8px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#section1-h1{
+    font-size: 35px;
+}
+
+#section1-div1{
+    margin-bottom: -15px;
+}
+
+
+#section2{
+    background-color: white;
+    margin: -8px;
+    margin-top: 8px;
+    flex: wrap;
+}
+
+#section2-div1{
+    margin-top: -19.92px;
+    color: #2C3E50;
+    display: flex;
+    justify-content: center;
+    position: relative; top: 25px; 
+    font-size: 25px;
+}
+
+#img-group1{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    position: relative; top: 10px;
+    flex-wrap: wrap;
+}
+
+#img-group2{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    position: relative; top: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+
+#img-group1-img1{
+    border-radius: 3%;
+}
+
+#img-group2{
+    position: relative; top: 30px;
+}
+
+#section3{
+    background-color: #DC3545;
+    margin: -8px;
+    position: relative; top: -20px;
+}
+
+#section3-h1-1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative; top: 25px;
+    font-size: 30px;
+}
+
+#section3-div1{
+    display: flex;
+    justify-content: center;
+    position: relative; top: 30px;
+    color: white;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+#centrage{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#color-clair{
+    background-color: #2D3E51;
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#color-dark{
+    background-color: #1A252F;
+    height: 60px;
+    margin: -8px;
+    width: vh;
+
+}
+
+#color-clair-div1{
+    display: flex;
+    color: white;
+    gap: 85px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+h3{
+    margin-bottom: 25px;
+}
+
+#boot{
+    color: white;
+}
+
+svg{
+    border: 2px solid white;
+    border-radius: 45%;
+    padding: 10px;
+}
+
+#color-clair-div2{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+#color-dark-p{
+    margin: -8px;
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    color: white;
+    font-size: 13px;
+}    
+
+
+#forms{
+    display: flex;
+    flex-direction: column; width: 500px;
+    position: relative; top: -40px;
+    color: #787D8F;
+}
+
+#form-bord{
+    border: none;
+    border-bottom: 2px solid #ECEEF0;
+    margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+    #forms{
+        display: flex;
+        flex-direction: column; width: 300px;
+        position: relative; top: -40px;
+        color: #787D8F;
+    }
+
+    #butt{
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+    }
+}
+
+
+label{
+    margin-top: 40px;
+    margin-bottom: -25px;
+}
+
+#mess{
+    margin-bottom: 80px;
+}
+
+#section4-div1{
+    margin-top: 80px;
+    color: #2C3E50;
+    display: flex;
+    justify-content: center;
+    position: relative; top: -25px;
+    font-size: 25px;
+}
+
+button{
+    border: none;
+    background-color: #DC3546;   
+    color: white;
+    height: 50px;
+    width: 80px;
+    border-radius: 4px;
+    margin-left: -249px;
+    margin-bottom: 100px;
+}
+
+
+
