@@ -1,0 +1,260 @@
+#div-test {
+  position: relative;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-bottom: 670px;
+  background-size: cover;
+  position: relative;
+}
+header #shadow {
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+header nav {
+  position: absolute;
+  z-index: 2;
+  width: 90%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-left: 80px;
+}
+header #menu-nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+header #milieu-titre {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  flex-wrap: wrap;
+}
+header #milieu-titre p {
+  display: flex;
+  text-align: center;
+  line-height: 35px;
+}
+
+#section-1-div-bis {
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+#section-id-1 {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  margin-right: 60px;
+}
+#section-id-1 h1 {
+  font-size: 30px;
+  line-height: 45px;
+}
+#section-id-1 p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#section-id-2 p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #C8C8C7;
+}
+
+section:nth-of-type(2) {
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+section:nth-of-type(2) #title-section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section:nth-of-type(2) #title-section2 p {
+  color: #8D8D8C;
+}
+
+#the-two-blog {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+#the-two-blog div:nth-of-type(1) div {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin-top: -4px;
+  padding: 15px;
+  box-shadow: 0px 0px 0px 0.15px grey;
+}
+#the-two-blog div:nth-of-type(2) div {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin-top: -4px;
+  padding: 15px;
+  box-shadow: 0px 0px 0px 0.15px grey;
+}
+
+section:nth-of-type(2) div:nth-of-type(3) {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+section:nth-of-type(3) #first-div-section3 {
+  width: 60%;
+  display: flex;
+  justify-content: left;
+  width: 50%;
+}
+section:nth-of-type(3) #first-div-section3 div h1 {
+  font-size: 30px;
+}
+section:nth-of-type(3) #first-div-section3 div p {
+  font-size: 18px;
+}
+
+#img1 {
+  border-radius: 50%;
+  border: 10px solid #E3E3E3;
+}
+
+#block-1-top {
+  display: flex;
+  gap: 30px;
+}
+#block-1-top div {
+  text-align: right;
+}
+
+#block-2-top {
+  display: flex;
+  gap: 30px;
+  text-align: right;
+}
+#block-all {
+  display: flex;
+  gap: 70px;
+}
+
+#block-3-top {
+  display: flex;
+  gap: 30px;
+}
+
+#block-4-top {
+  display: flex;
+  gap: 30px;
+}
+
+#lorem-left {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+#lorem-right {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+section:nth-of-type(4) {
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 300px;
+  background-size: cover;
+  position: relative;
+  margin-top: 100px;
+}
+section:nth-of-type(4) #shadow {
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+section:nth-of-type(4) #milieu-titre {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-wrap: wrap;
+}
+section:nth-of-type(4) button {
+  margin-top: 20px;
+}
+
+footer {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+footer #the-svg {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+#button1 {
+  height: 45px;
+  width: 190px;
+  border: none;
+  background-color: #F32953;
+  color: white;
+  border-radius: 3px;
+}
+
+#button2 {
+  height: 45px;
+  width: 190px;
+  border: none;
+  background-color: #323038;
+  color: white;
+  margin-bottom: 80px;
+  border-radius: 3px;
+}
+
+/*# sourceMappingURL=style.css.map */
